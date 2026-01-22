@@ -5,7 +5,6 @@ int main() {
 
     int arr[10], n = 5, choice, pos, value, key;
 
-    // Initial array
     arr[0] = 10;
     arr[1] = 20;
     arr[2] = 30;
@@ -23,13 +22,13 @@ int main() {
 
         switch(choice) {
 
-            case 1: // Traversal
+            case 1: 
                 cout << "Array elements: ";
                 for(int i = 0; i < n; i++)
                     cout << arr[i] << " ";
                 break;
 
-            case 2: // Insertion
+            case 2: 
                 cout << "Enter position and value: ";
                 cin >> pos >> value;
 
@@ -44,7 +43,7 @@ int main() {
                     cout << arr[i] << " ";
                 break;
 
-            case 3: // Deletion
+            case 3: 
                 cout << "Enter position to delete: ";
                 cin >> pos;
 
@@ -58,7 +57,7 @@ int main() {
                     cout << arr[i] << " ";
                 break;
 
-            case 4: { // Searching (Fixed with scope)
+            case 4: { 
                 cout << "Enter element to search: ";
                 cin >> key;
 
